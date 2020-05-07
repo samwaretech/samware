@@ -1,0 +1,418 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+
+body{
+	background-color: #feeae3;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+p{
+  font-size: 12px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover { color:white;text-decoration: none; }
+
+
+
+
+
+/* Responsive media by fazaio | @samware.io*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 769px) {
+  .section-six{
+    background-size: auto 500px !important;
+  }
+  .nav-item{
+    padding: 5px;
+    margin-top: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+    background-color: #ed1d5e !important;
+  }
+  .section-one{
+    height: 660px !important;
+  }
+  .btn-menu-active{
+    color: #fff !important;
+    background-color: transparent !important;
+  }
+}
+
+
+
+
+
+
+
+.buttons {
+    /*margin: 10%;*/
+    text-align: center;
+}
+
+.btn-hover {
+    width: 120px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    /*margin: 20px;*/
+    height: 30px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 7px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-lihat {
+  background-color: transparent;
+  border: 2px solid #ed1d5e;
+  color: #ed1d5e;
+  border-radius:5px;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn-lihat:hover {
+  background-color: #ed1d5e;
+  color: white;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.btn-menu {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  border-radius:15px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+.btn-menu:hover {
+  background-color: #fff;
+  color: #ed1d5e;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-menu-active {
+  background-color: #fff;
+  border: none;
+  color: #ed1d5e;
+  border-radius:15px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+.btn-menu-active:hover {
+  background-color: #ed1d5e;
+  color: #fff;
+  border: 1px solid #fff;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.btn-hover:focus {
+    outline: none;
+}
+
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    /*box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 1);*/
+}
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    /*box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);*/
+}
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    /*box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);*/
+}
+.btn-hover.color-4 {
+    background-image: linear-gradient(to left, #fc6076, #ff9a44, #ef9d43, #e75516);
+    /*box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 1);*/
+}
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    /*box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);*/
+}
+.btn-hover.color-6 {
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    /*box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);*/
+}
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    /*box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);*/
+}
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    /*box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);*/
+}
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    /*box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);*/
+}
+.btn-hover.color-10 {
+        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+    /*box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);*/
+}
+.btn-hover.color-11 {
+       background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+
+
+
+.paddingsec1{
+  padding: 250px 150px 10px 90px;
+  border: 1px solid black;
+}
+
+.section-one {
+  background-image: url(../../assets/img/1/ori.webp);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #feeae3;
+  height:600px;
+  color: white;
+
+  /*background: url(../../assets/img/1/bg1.png) no-repeat right top cover, -webkit-linear-gradient(left, #ba53a0, #fff);
+  background: url(../../assets/img/1/bg1.png) no-repeat right top cover, -o-linear-gradient(right, #ba53a0, #fff);
+  background: url(../../assets/img/1/bg1.png) no-repeat right top cover, -moz-linear-gradient(right, #ba53a0, #fff);
+  background: url(../../assets/img/1/bg1.png) no-repeat right top fixed, linear-gradient(to right, #ba53a0, #fff);
+*/
+}
+
+.section-two{
+	text-align: center;
+	height: auto;
+  color:#ed1d5e;
+  padding: 20px 0px;
+  /*overflow: auto;*/
+}
+
+.section-three {
+  background-image: url('../../assets/img/2/bg-section-two.png');
+  height:600px;
+  /*overflow: auto;*/
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+.section-three-video{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 340px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: #fff;
+}
+
+
+
+.section-three-txt{
+  text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 20px 0px 10px 0px;
+}
+
+.section-three-button{
+  position: absolute;
+  top: 140px;
+  left: 140px;
+}
+
+
+
+
+.section-four{
+	/*height: 100vh;*/
+	text-align: center;
+  color: #ed1d5e;
+}
+
+.col-margin{
+	margin: 10px 5px;
+}
+
+.col-sectwo-logo{
+	/*isi*/
+}
+
+.col-sectwo-head{
+	padding: 20px 1px;
+  font-size: 18.2px;
+}
+
+.col-sectwo-body{
+	font-size: 10px;
+}
+
+.secfour-center{
+	width: 330px;
+	margin: auto;
+	font-size: 11px;
+}
+
+
+
+
+.section-five{
+  background-image: url('../../assets/img/5/secfive-bg.png');
+  height:auto;
+  margin-top: 170px;
+  color: #ed1d5e;
+  /* Center and scale the image nicely */
+  background-position: left 110px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+}
+
+.secfive-center{
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  width: 80%;
+}
+
+.secfive-dev-img{
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  width: 60%;
+}
+
+.secfive-dev-txt{
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.secfive-foto{
+  width: 90px;
+  height: 130px;
+  border-radius: 5%;
+  object-fit: cover;
+}
+.navbar-fixed-top {
+  top: -70px; /* you'll have to figure out the exact number here */
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: relative; /* this can also be static */
+}
+
+
+
+/*Bagian ke-6 SECTION SIX*/
+
+.section-six{
+  position: relative;
+  background-image: url('../../assets/img/6/bg-section-six.png');
+  height:600px;
+  margin-top: 250px;
+  color: #ed1d5e;
+
+  /* Center and scale the image nicely */
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.secsix-center{
+  text-align: center;
+  padding: 5px;
+}
+.secsix-subscribe{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+}
+
+.footer-end-right{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-end-left{
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.txt-footer{
+  font-size: 13px;
+}
